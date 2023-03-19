@@ -15,7 +15,7 @@ const downloadInvoice = (id) => {
 $(function(){
     // tampermonkey clear console
     console.clear();
-    // $('.order-card a:contains("Fatura")').each(function(){ this.click();})
+    // $('.order-card a:contains("Rechnung")').each(function(){ this.click();})
     var text = document.querySelector(".your-orders-content-container__content").innerText
     var regex = /(\d{3}-\d{7}-\d{7})/g;
     let ids = text.match(regex);
