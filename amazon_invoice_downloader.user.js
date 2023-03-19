@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.amazon.de/-/tr/your-orders/*
+// @match        https://www.amazon.*/-/*/your-orders/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=amazon.de
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // @require      https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js
